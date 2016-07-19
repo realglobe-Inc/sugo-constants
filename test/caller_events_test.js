@@ -1,14 +1,14 @@
 /**
- * Test case for urlConstants.
+ * Test case for callerEvents.
  * Runs with mocha.
  */
 'use strict'
 
-const UrlConstants = require('../lib/url_constants.js')
+const CallerEvents = require('../lib/caller_events.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('url-constants', function () {
+describe('caller-events', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,9 +19,9 @@ describe('url-constants', function () {
 
   }))
 
-  it('Url constants', () => co(function * () {
-    for (let name of Object.keys(UrlConstants)) {
-      assert.ok(UrlConstants[ name ])
+  it('Caller events', () => co(function * () {
+    for (let name of Object.keys(CallerEvents)) {
+      assert.ok(CallerEvents[ name ])
     }
   }))
 })

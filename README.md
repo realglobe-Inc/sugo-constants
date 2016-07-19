@@ -74,10 +74,10 @@ Usage
 ```javascript
 'use strict'
 
-const { UrlConstants } = require('sugo-constants')
+const { CloudUrls } = require('sugo-constants')
 
 {
-  const { ACTOR_URL, CALLER_URL } = UrlConstants
+  const { ACTOR_URL, CALLER_URL } = CloudUrls
   /* ... */
 }
 
@@ -93,7 +93,24 @@ const { UrlConstants } = require('sugo-constants')
 Values
 ------
 
-##### UrlConstants
+##### ActorEvents
+
+| Key | Value |
+| --- | ---- |
+| SETUP | `actor:setup` |
+| TEARDOWN | `actor:teardown` |
+| UPDATE | `actor:update` |
+
+
+##### CallerEvents
+
+| Key | Value |
+| --- | ---- |
+| JOIN | `caller:join` |
+| LEAVE | `caller:leave` |
+
+
+##### CloudUrls
 
 | Key | Value |
 | --- | ---- |

@@ -12,7 +12,7 @@ module.exports = apeTmpl.indexJsBud({
   module: name,
   dirname: __dirname,
   subclasses: [
-    '*Constants'
+    '*'
   ]
 })
 
