@@ -18,6 +18,9 @@ module.exports = {
   },
   get CloudUrls() {
     return d(require('./cloud_urls'));
+  },
+  get ResrvedNames() {
+    return d(require('./resrved_names'));
   }
 };
 //# sourceMappingURL=data:application/json;base64,bnVsbA==

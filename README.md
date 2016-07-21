@@ -119,6 +119,14 @@ Values
 | OBSERVER_URL | `/observers` |
 
 
+##### ReservedNames
+
+| Key | Value |
+| --- | ---- |
+| MODULE | `module` |
+| METHOD | `emit,addListener,removeListener,removeAllListeners,listeners,listenerCount,setMaxListeners,getMaxListeners,eventNames,on,off,once` |
+
+
 
 
 <!-- Section from "doc/guides/03.Values.md.hbs" End -->
