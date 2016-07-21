@@ -19,8 +19,8 @@ module.exports = {
   get CloudUrls() {
     return d(require('./cloud_urls'));
   },
-  get ResrvedNames() {
-    return d(require('./resrved_names'));
+  get ReservedNames() {
+    return d(require('./reserved_names'));
   }
 };
 //# sourceMappingURL=data:application/json;base64,bnVsbA==

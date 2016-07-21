@@ -1,6 +1,6 @@
 {
   "name": "sugo-constants",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Constant variables for SUGOS",
   "main": "lib",
   "browser": "sims/browser",
