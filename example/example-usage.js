@@ -1,8 +1,8 @@
 'use strict'
 
-const { CloudUrls } = require('sugo-constants')
+const { HubUrls } = require('sugo-constants')
 
 {
-  const { ACTOR_URL, CALLER_URL } = CloudUrls
+  const { ACTOR_URL, CALLER_URL } = HubUrls
   /* ... */
 }

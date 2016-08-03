@@ -4,7 +4,7 @@
  */
 'use strict'
 
-const CloudUrls = require('../lib/cloud_urls.js')
+const HubURL = require('../lib/hub_urls.js')
 const assert = require('assert')
 const co = require('co')
 
@@ -20,8 +20,8 @@ describe('cloud-urls', function () {
   }))
 
   it('Cloud urls', () => co(function * () {
-    for (let name of Object.keys(CloudUrls)) {
-      assert.ok(CloudUrls[ name ])
+    for (let name of Object.keys(HubURL)) {
+      assert.ok(HubURL[ name ])
     }
   }))
 })
