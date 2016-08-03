@@ -74,10 +74,10 @@ Usage
 ```javascript
 'use strict'
 
-const { CloudUrls } = require('sugo-constants')
+const { HubUrls } = require('sugo-constants')
 
 {
-  const { ACTOR_URL, CALLER_URL } = CloudUrls
+  const { ACTOR_URL, CALLER_URL } = HubUrls
   /* ... */
 }
 
@@ -110,13 +110,14 @@ Values
 | LEAVE | `caller:leave` |
 
 
-##### CloudUrls
+##### HubUrls
 
 | Key | Value |
 | --- | ---- |
 | ACTOR_URL | `/actors` |
 | CALLER_URL | `/callers` |
 | OBSERVER_URL | `/observers` |
+| HUB_URL | `/hubs` |
 
 
 ##### ReservedNames
