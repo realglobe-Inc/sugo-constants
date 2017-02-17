@@ -1,14 +1,14 @@
 /**
- * Test case for cloudUrls.
+ * Test case for clientTypes.
  * Runs with mocha.
  */
 'use strict'
 
-const HubURLs = require('../lib/hub_urls.js')
+const ClientTypes = require('../lib/client_types.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('cloud-urls', function () {
+describe('client-types', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,9 +19,9 @@ describe('cloud-urls', function () {
 
   }))
 
-  it('Cloud urls', () => co(function * () {
-    for (let name of Object.keys(HubURLs)) {
-      assert.ok(HubURLs[ name ])
+  it('Client types', () => co(function * () {
+    for (let name of Object.keys(ClientTypes)) {
+      assert.ok(ClientTypes[ name ])
     }
   }))
 })
