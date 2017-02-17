@@ -110,6 +110,15 @@ Values
 | LEAVE | `caller:leave` |
 
 
+##### ClientTypes
+
+| Key | Value |
+| --- | ---- |
+| ACTOR | `sugo:actor` |
+| CALLER | `sugo:caller` |
+| OBSERVER | `sugo:observer` |
+
+
 ##### HubUrls
 
 | Key | Value |

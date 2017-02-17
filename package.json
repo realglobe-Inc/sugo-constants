@@ -23,9 +23,7 @@
     "url": "https://github.com/realglobe-Inc/sugo-constants/issues"
   },
   "homepage": "https://github.com/realglobe-Inc/sugo-constants#readme",
-  "dependencies": {
-    "co": "^4.6.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ababel": "^2.0.1",
     "ababel-es2015": "^2.0.1",
@@ -35,6 +33,7 @@
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
+    "co": "^4.6.0",
     "coz": "^6.0.16",
     "filecopy": "^3.0.0",
     "injectmock": "^2.0.0",
