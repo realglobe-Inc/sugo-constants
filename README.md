@@ -134,7 +134,7 @@ Values
 | Key | Value |
 | --- | ---- |
 | MODULE | `module` |
-| METHOD | `constructor,emit,addListener,removeListener,removeAllListeners,listeners,listenerCount,setMaxListeners,getMaxListeners,eventNames,on,off,once` |
+| METHOD | `constructor,emit,addListener,removeListener,removeAllListeners,listeners,listenerCount,setMaxListeners,getMaxListeners,eventNames,on,off,once,with,of` |
 
 
 
