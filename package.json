@@ -35,7 +35,7 @@
     "ape-updating": "^4.0.5",
     "co": "^4.6.0",
     "coz": "^6.0.16",
-    "filecopy": "^3.0.0",
+    "filecopy": "*",
     "injectmock": "^2.0.0",
     "sugos-travis": "^2.0.7"
   },

@@ -1,14 +1,14 @@
 /**
- * Test case for pipeLevel.
+ * Test case for pipeLevels.
  * Runs with mocha.
  */
 'use strict'
 
-const pipeLevel = require('../lib/pipe_level.js')
+const pipeLevels = require('../lib/pipe_levels.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('pipe-level', function () {
+describe('pipe-levels', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,7 +19,7 @@ describe('pipe-level', function () {
 
   }))
 
-  it('Pipe level', () => co(function * () {
+  it('Pipe levels', () => co(function * () {
 
   }))
 })
