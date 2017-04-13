@@ -129,6 +129,14 @@ Values
 | HUB_URL | `/hubs` |
 
 
+##### PipeLevel
+
+| Key | Value |
+| --- | ---- |
+| ACTOR_LEVEL | `level:actor` |
+| MODULE_LEVEL | `level:module` |
+
+
 ##### ReservedNames
 
 | Key | Value |
