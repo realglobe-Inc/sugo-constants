@@ -100,6 +100,7 @@ Values
 | SETUP | `actor:setup` |
 | TEARDOWN | `actor:teardown` |
 | UPDATE | `actor:update` |
+| LOST | `actor:lost` |
 
 
 ##### CallerEvents
