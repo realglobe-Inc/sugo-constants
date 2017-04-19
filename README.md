@@ -120,6 +120,14 @@ Values
 | OBSERVER | `sugo:observer` |
 
 
+##### HubNotices
+
+| Key | Value |
+| --- | ---- |
+| CALLER_GONE | `CallerGone` |
+| ACTOR_GONE | `ActorGone` |
+
+
 ##### HubUrls
 
 | Key | Value |
