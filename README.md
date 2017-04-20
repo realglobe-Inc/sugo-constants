@@ -152,6 +152,7 @@ Values
 | --- | ---- |
 | MODULE | `module` |
 | METHOD | `constructor,emit,addListener,removeListener,removeAllListeners,listeners,listenerCount,setMaxListeners,getMaxListeners,eventNames,on,off,once,with,of` |
+| ATTRIBUTE | `name,prototype,caller` |
 
 
 
