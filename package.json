@@ -1,6 +1,6 @@
 {
   "name": "sugo-constants",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Constant variables for SUGOS",
   "main": "lib",
   "browser": "shim/browser",
